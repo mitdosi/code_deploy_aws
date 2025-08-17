@@ -12,7 +12,7 @@ phases:
       - echo "build started"
       - cp index.html /var/www/html/
   
-  post build:
+  post_build:
     commands:
       - echo configuring nginx
 
